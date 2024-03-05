@@ -10,7 +10,7 @@ if [ "$name" = "Arsan" ]; then
 
 	for fichier in *; 
 	
-		do echo $fichier
+		do echo $fichier && chmod 777 $fichier
 	done	
 fi
 
